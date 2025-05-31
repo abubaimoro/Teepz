@@ -10,7 +10,7 @@ body {
 }
 
 header {
-  background-color: #61acc7;
+  background-color: #0c5772;
   color: white;
   padding: 1rem;
   position: sticky;
@@ -98,6 +98,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  color: white;
   align-items: center;
   text-align: center;
   padding: 0 20px;
@@ -112,4 +113,29 @@ header {
 .hero p {
     font-size: 20px;
     margin-bottom: 30px;
+    max-width: 700px;
+    color: aliceblue;
+}
+
+.btn {
+  padding: 15px 25px;
+  border: none;
+  border-radius: 5px;
+  background-color: #041a22;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+
+}
+
+.btn-primary:hover {
+  background-color: #3998b9;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  border: 1.5px solid wheat;
+  margin-left: 15px;
 }
